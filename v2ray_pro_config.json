@@ -1,0 +1,16 @@
+{
+    "sources": [
+        {
+            "name": "GitHub 免费源 (Alvin9999)",
+            "url": "https://github.com/Alvin9999-newpac/fanqiang/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
+            "type": "direct"
+        }
+    ],
+    "protocols": [
+        "vmess://[^\\s\\n\\r<]+",
+        "vless://[^\\s\\n\\r<]+",
+        "hysteria2?://[^\\s\\n\\r<]+",
+        "trojan://[^\\s\\n\\r<]+",
+        "ss://[^\\s\\n\\r<]+"
+    ]
+}
