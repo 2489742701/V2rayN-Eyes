@@ -11,12 +11,24 @@ import random
 from datetime import datetime
 from urllib.parse import urljoin
 import urllib3
+import sys
 
 # 禁用SSL警告
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-# --- 配置文件路径 ---
-CONFIG_FILE = "v2ray_pro_config.json"
+# --- 获取程序所在目录 ---
+if getattr(sys, 'frozen', False):
+    APP_DIR = os.path.dirname(sys.executable)
+else:
+    APP_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# --- 创建配置文件夹 ---
+CONFIG_DIR = os.path.join(APP_DIR, "config")
+if not os.path.exists(CONFIG_DIR):
+    os.makedirs(CONFIG_DIR)
+
+# --- 配置文件路径（使用相对路径） ---
+CONFIG_FILE = os.path.join(CONFIG_DIR, "v2ray_pro_config.json")
 
 # --- 浏览器伪装池 ---
 USER_AGENTS = [
