@@ -4,6 +4,16 @@
             "name": "GitHub 免费源 (Alvin9999)",
             "url": "https://github.com/Alvin9999-newpac/fanqiang/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
             "type": "direct"
+        },
+        {
+            "name": "GitHub 免费源 (Pawdroid)",
+            "url": "https://github.com/pawdroid/Free-servers",
+            "type": "direct"
+        },
+        {
+            "name": "Node APIs",
+            "url": "https://q3dlaxpoaq.github.io/APIs/",
+            "type": "direct"
         }
     ],
     "protocols": [

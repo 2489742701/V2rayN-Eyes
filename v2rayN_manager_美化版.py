@@ -42,7 +42,8 @@ USER_AGENTS = [
 DEFAULT_CONFIG = {
     "direct_sources": [
         {"name": "GitHub 免费源 (Alvin9999)", "url": "https://github.com/Alvin9999-newpac/fanqiang/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7"},
-        {"name": "GitHub 免费源 (Pawdroid)", "url": "https://github.com/pawdroid/Free-servers"}
+        {"name": "GitHub 免费源 (Pawdroid)", "url": "https://github.com/pawdroid/Free-servers"},
+        {"name": "Node APIs", "url": "https://q3dlaxpoaq.github.io/APIs/"}
     ],
     "forum_sources": [
         {"name": "米贝分享", "url": "https://www.mibei77.com", "keyword": "免费精选节点"}
